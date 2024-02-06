@@ -1,0 +1,505 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.li-first img:hover {
+  transition: 0.4s;
+  transform: rotate(360deg);
+}
+
+/*;
+.logo-youtube .bar i {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+ */
+.microphone i:hover {
+  background-color: #bdc3c7;
+  border-radius: 90%;
+  transition: 0.6s;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.camera i:hover {
+  background-color: #bdc3c7;
+  border-radius: 90%;
+  transition: 0.6s;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+.bell i:hover {
+  background-color: #bdc3c7;
+  border-radius: 90%;
+  transition: 0.6s;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+.microphone i {
+  background-color: #b2bec3;
+  border-radius: 90%;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  padding-right: 0;
+  height: 33px;
+  width: 30px;
+  float: left;
+  margin-left: -150px;
+  display: flex;
+  margin-top: -85px;
+  position: relative;
+}
+
+.bell i {
+  border-radius: 100px;
+  height: 27px;
+  width: 27px;
+  float: right;
+  display: flex;
+  margin-top: -74px;
+  position: relative;
+  margin-right: 20%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0;
+}
+
+.camera i {
+  border-radius: 90px;
+  height: 27px;
+  width: 27px;
+  float: right;
+  display: flex;
+  margin-top: -74px;
+  position: relative;
+  margin-right: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0;
+}
+.logo-title img:hover {
+  border: 5px solid rgb(102, 101, 101);
+  transition: 0.2s;
+  transform: rotate(360deg);
+}
+.logo-title {
+  text-align: right;
+  width: 300px;
+  height: 60px;
+  margin-left: 11%;
+}
+.logo-title img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.logo-youtube {
+  display: flex;
+  flex-wrap: wrap;
+}
+.li-first img {
+  color: white;
+  margin-left: 30px;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 20px;
+  float: left;
+}
+
+.conainer .li-first .title {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -19px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+.second-li {
+  margin-top: -15px;
+} /*
+.second-li button {
+  
+  width: 40px;
+  margin-left: -40px;
+  height: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+}*/
+.second-li button i:hover {
+  background-color: black;
+  color: #bdc3c7;
+  cursor: pointer;
+}
+.second-li button i {
+  /* #bdc3c7*/
+  background-color: #bdc3c7;
+  position: absolute;
+  top: 10px;
+  left: 62.6%;
+  float: right;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: -20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.second-li input {
+  text-align: left;
+  padding: 10px 20px;
+  width: 45cap;
+  height: 20px;
+  margin-left: 150px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: #e7e7e7;
+}
+/*
+.conainer .logo-youtube .second-li i {
+  background-color: rgb(233, 229, 223);
+  padding: 12px 20px;
+  padding-top: 10px;
+  margin-left: -5px;
+  border: 1px solid black;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.conainer .logo-youtube .second-li {
+  margin-left: 110px;
+  margin-top: -120px;
+}
+
+.second-li input {
+  padding: 10px 20px;
+  width: 40cap;
+  margin-left: 150px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: beige;
+}
+*/
+.conainer {
+  background-color: #f5f6fa;
+  line-height: 90px;
+  position: sticky;
+}
+.button-div li button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+.button-div li button {
+  padding: 5px 10px;
+  font-size: 15px;
+  position: relative;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-div {
+  display: flex;
+  margin-top: -30px;
+  justify-content: right;
+  margin-right: 20px;
+}
+.main {
+  display: flex;
+  position: relative;
+}
+
+/*card*/
+.main .card .logo button {
+  margin-top: 23px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.main .card .logo p {
+  position: relative;
+  border-radius: 30px;
+  margin-left: 60px;
+  font-size: 18px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+.main .card .logo img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.main .card .logo button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+/*end card*/
+
+/*card-5*/
+
+.main .card-5 {
+  cursor: pointer;
+  height: 260px;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  left: 47%;
+}
+.main .card-5 .logo-5 button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.main .card-5 .logo-5 button {
+  margin-top: 19px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.main .card-5 .logo-5 p {
+  position: relative;
+  border-radius: 30px;
+  margin-left: 60px;
+  font-size: 18px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+.main .card-5 .logo-5 img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+/*end card-5*/
+
+/*card-6*/
+.main .card-6 {
+  cursor: pointer;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  left: 73%;
+}
+.main .card-6 .logo-5 button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.main .card-6 .logo-5 button {
+  margin-top: 23px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.main .card-6 .logo-5 p {
+  position: relative;
+  border-radius: 30px;
+  margin-left: 60px;
+  font-size: 18px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+.main .card-6 .logo-5 img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+/*end card-6*/
+
+/*card-4*/
+
+.main-second .card-4 .logo-4 button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.main .card-4 .logo-4 button {
+  margin-top: 23px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.main .card-4 .logo-4 p {
+  position: relative;
+  border-radius: 30px;
+  margin-left: 60px;
+  font-size: 18px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+.main .card-4 .logo-4 img {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.main .card-4 {
+  cursor: pointer;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  left: 20%;
+}
+/* end card-4*/
+.main .card-6 .logo-5 .p3 {
+  padding-top: 38px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card-6 .logo-5 .p2 {
+  padding-top: 44px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+
+.main .card-5 .logo-5 .p3 {
+  padding-top: 38px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card-5 .logo-5 .p2 {
+  padding-top: 44px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+
+.main .card-4 .logo-4 .p3 {
+  padding-top: 38px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card-4 .logo-4 .p2 {
+  padding-top: 44px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card .logo .p3 {
+  padding-top: 38px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card .logo .p2 {
+  padding-top: 44px;
+  position: relative;
+  margin-left: 10px;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+}
+.main .card {
+  cursor: pointer;
+  height: 290px;
+  border-radius: 10px;
+  margin-left: 53px;
+  margin-top: 20px;
+}
+/*.main .card::before
+{ 
+    transition: 2s;
+     background-color: black;
+     height: 170px;
+     width: 303px;
+     border-radius: 10px;
+     opacity: 0.5;
+     content: "";
+     position: absolute;
+    top: 20px;
+    left:20.5%;
+    
+    }*/
+.main .card-img img {
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+aside {
+  padding: 10px;
+  flex: 0 6 15vw;
+  height: 90vh;
+  background-color: #f5f6fa;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li i {
+  color: black;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+aside ul li:hover {
+  background-color: gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+aside ul li:hover {
+  font-size: 20px;
+  i {
+    background-color: gray;
+    border-radius: 10px;
+  }
+}
+
+aside img {
+  width: 100%;
+  margin-top: 80px;
+}
